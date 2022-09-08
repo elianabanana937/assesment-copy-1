@@ -14,6 +14,11 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Font2;
+  src: url(Rubik-VariableFont_wght.ttf);
+}
+
 /*Setup*/
 body{
     margin: 0%;
@@ -26,7 +31,7 @@ header{
   width: 100%;
 }
 
-h1{
+header h1{
     font-family: TitleFont;
     padding-left: 100px;
     background-color: #76BA99;
@@ -35,6 +40,16 @@ h1{
     margin-top: 0%;
     padding-top: 20px;
     margin: 0%;
+}
+nav h1{
+  font-family: TitleFont;
+  padding-left: 100px;
+  background-color: #76BA99;
+  color: white;
+  height: 80px;
+  margin-top: 0%;
+  padding-top: 20px;
+  margin: 0%;
 }
 
 header img {
@@ -54,7 +69,7 @@ nav {
     /*sticky position used to position nav bar*/
     position: sticky;
     top: 0;
-    width: 99%;
+    width: 100%;
     opacity: 100%;
     margin: 0%;
     height: 60px;
@@ -93,59 +108,54 @@ nav ol {
 /* use of flexbox*/
 
 /*styling of home page content*/
-main img{
-  
+
+main{
+  font-family: Font2;
+
+}
+
+.content{
+  color: white;
   width: 100%;
-}
-
-.image1{
-  height: 600px;
-}
-
-.Text1{
-  font-family: MainFont;
-  position: relative;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align:center;
+  font-size:x-large;
+  text-align: center;
+  box-sizing: border-box; /*tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
   
-}
-
-.content h1{
-  background-color: transparent;
-  margin: 0;
-  left: 0;
-  text-align:left;
 }
 
 .Img1 {
   position: relative;
-  max-width: 800px;
-  margin: 0 auto; /* Centered text*/
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+
 }
 
 .Img1 .content {
   position: absolute;
   top: 0;
   bottom: 0;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  background: #FFC090; /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Dark color background with 0.5 opacity */
   color: #f1f1f1; 
   width: 100%;
   padding: 10%;
+  
 }
 
 .Img2 img{
-  border-radius: 80%;
+  border-radius: 70%;
   width: 200px;
   padding-left: 5%;
   position: absolute;
   padding-top: 20px;
+  display: flex;
+
 }
 
 .Img2{
   background-color:#76BA99;
-  height: 200px;
+  height: 250px;
   max-width: 100%;
 }
 
@@ -154,6 +164,12 @@ h6{
   background-color: #76BA99;
   text-align: center;
   width: 50%;
+}
+
+.Recipes img{
+  display: flex;
+  width: 20%;
+  height: auto;
 }
 
 
