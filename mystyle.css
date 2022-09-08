@@ -1,0 +1,178 @@
+/*font setup*/
+
+@font-face {
+    font-family: TitleFont;
+    src: url(JosefinSans-Italic-VariableFont_wght.ttf);
+    src: url(JosefinSans-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+  font-family: MainFont;
+  src: url(VarelaRound-Regular.ttf);
+  font-style: normal;
+}
+
+/*Setup*/
+body{
+    margin: 0%;
+}
+  
+/*header*/
+
+header{
+  background-color: #76BA99;
+  width: 100%;
+}
+
+h1{
+    font-family: TitleFont;
+    padding-left: 100px;
+    background-color: #76BA99;
+    color: white;
+    height: 80px;
+    margin-top: 0%;
+    padding-top: 20px;
+    margin: 0%;
+}
+
+header img {
+  position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+
+/*nav bar formatting*/
+nav {
+    background-color:white;
+    color: #967450;
+    text-decoration: none;
+    font-family: MainFont;
+    font-weight:1000;
+    /*sticky position used to position nav bar*/
+    position: sticky;
+    top: 0;
+    width: 99%;
+    opacity: 100%;
+    margin: 0%;
+    height: 60px;
+    z-index: 999;
+    border: #76BA99;
+    border-style:solid;
+}
+nav ol {
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    height: 35px;
+    justify-content: space-evenly; 
+  }
+  li {
+  
+    text-align: center;
+    word-spacing: 100px;
+    
+  }
+  /*Styling of nav bar content*/
+  li a {
+    color: #967450;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #876445;
+    color: white;
+  }
+  /*Hover effect - responsive to mouse*/
+  nav li {
+    list-style: none;
+}
+
+/* use of flexbox*/
+
+/*styling of home page content*/
+main img{
+  
+  width: 100%;
+}
+
+.image1{
+  height: 600px;
+}
+
+.Text1{
+  font-family: MainFont;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align:center;
+  
+}
+
+.content h1{
+  background-color: transparent;
+  margin: 0;
+  left: 0;
+  text-align:left;
+}
+
+.Img1 {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto; /* Centered text*/
+}
+
+.Img1 .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; 
+  width: 100%;
+  padding: 10%;
+}
+
+.Img2 img{
+  border-radius: 80%;
+  width: 200px;
+  padding-left: 5%;
+  position: absolute;
+  padding-top: 20px;
+}
+
+.Img2{
+  background-color:#76BA99;
+  height: 200px;
+  max-width: 100%;
+}
+
+h6{
+  font-size: medium;
+  background-color: #76BA99;
+  text-align: center;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
