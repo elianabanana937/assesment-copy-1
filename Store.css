@@ -89,3 +89,10 @@ nav ol {
 }
 
 /* use of flexbox*/
+
+ul{
+  font-family: MainFont;
+  width: 20%;
+  list-style: circle;
+  position: sticky;
+}
