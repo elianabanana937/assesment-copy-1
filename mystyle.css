@@ -27,14 +27,14 @@ body{
 /*header*/
 
 header{
-  background-color: #76BA99;
+  background-color: #B7C4CF;
   width: 100%;
 }
 
 header h1{
-    font-family: TitleFont;
+    font-family: Font2;
     padding-left: 100px;
-    background-color: #76BA99;
+    background-color: #99C4C8;
     color: white;
     height: 80px;
     margin-top: 0%;
@@ -61,8 +61,8 @@ header img {
 
 /*nav bar formatting*/
 nav {
-    background-color:white;
-    color: #967450;
+    background-color:#EEEEEE;
+    color: #967E76;
     text-decoration: none;
     font-family: MainFont;
     font-weight:1000;
@@ -74,8 +74,6 @@ nav {
     margin: 0%;
     height: 60px;
     z-index: 999;
-    border: #76BA99;
-    border-style:solid;
 }
 nav ol {
     display:flex;
@@ -111,7 +109,6 @@ nav ol {
 
 main{
   font-family: Font2;
-
 }
 
 .content{
@@ -120,43 +117,58 @@ main{
   font-size:x-large;
   text-align: center;
   box-sizing: border-box; /*tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
-  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark color background with 0.5 opacity */
+  color: #f1f1f1; 
+  width: 100%;
+  padding: 10%;
+  height: 100%;
 }
 
 .Img1 {
   position: relative;
   width: 100%;
-  display: flex;
   margin: 0 auto;
-
+  height: 10;
 }
 
-.Img1 .content {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background: #FFC090; /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Dark color background with 0.5 opacity */
-  color: #f1f1f1; 
+.Img1 img{
   width: 100%;
-  padding: 10%;
   
 }
 
+.Text1{
+  margin: 5%;
+
+}
+.Text1 h2{
+  color: #76BA99;
+}
+
 .Img2 img{
-  border-radius: 70%;
+  border-radius: 50%;
   width: 200px;
+  height: 200px;
   padding-left: 5%;
   position: absolute;
-  padding-top: 20px;
+  padding-top: 50px;
   display: flex;
-
 }
 
 .Img2{
-  background-color:#76BA99;
+  background-color:#99C4C8;
   height: 250px;
   max-width: 100%;
+  display: flex;
+}
+.Img2 img{
+  float: left;
+}
+.Img2 h4{
+  float: right;
+  padding-left: 50%;
 }
 
 h6{
