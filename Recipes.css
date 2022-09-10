@@ -1,0 +1,184 @@
+@font-face {
+  font-family: TitleFont;
+  src: url(JosefinSans-Italic-VariableFont_wght.ttf);
+  src: url(JosefinSans-VariableFont_wght.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+font-family: MainFont;
+src: url(VarelaRound-Regular.ttf);
+font-style: normal;
+}
+
+@font-face {
+font-family: Font2;
+src: url(Rubik-VariableFont_wght.ttf);
+}
+
+/*Setup*/
+body{
+  margin: 0%;
+}
+
+/*header*/
+
+header{
+background-color: #B7C4CF;
+width: 100%;
+}
+
+header h1{
+  font-family: Font2;
+  padding-left: 100px;
+  background-color: #99C4C8;
+  color: white;
+  height: 80px;
+  margin-top: 0%;
+  padding-top: 20px;
+  margin: 0%;
+}
+nav h1{
+font-family: TitleFont;
+padding-left: 100px;
+background-color: #76BA99;
+color: white;
+height: 80px;
+margin-top: 0%;
+padding-top: 20px;
+margin: 0%;
+}
+
+header img {
+position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+
+/*nav bar formatting*/
+nav {
+  background-color:#EEEEEE;
+  color: #967E76;
+  text-decoration: none;
+  font-family: MainFont;
+  font-weight:1000;
+  /*sticky position used to position nav bar*/
+  position: sticky;
+  top: 0;
+  width: 100%;
+  opacity: 100%;
+  margin: 0%;
+  height: 60px;
+  z-index: 999;
+}
+nav ol {
+  display:flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  height: 35px;
+  justify-content: space-evenly; 
+}
+li {
+
+  text-align: center;
+  word-spacing: 100px;
+  
+}
+/*Styling of nav bar content*/
+li a {
+  color: #967E76;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #967E76;
+  color: white;
+}
+/*Hover effect - responsive to mouse*/
+nav li {
+  list-style: none;
+}
+
+/* use of flexbox*/
+
+/*Styling of page content*/
+body{
+  font-family: MainFont;
+}
+h3{
+  font-weight: 100;
+}
+.Part1{
+  background-color: #B7C4CF;
+  margin: 10px;
+  color:black;
+  padding: 15px;
+}
+
+/*Image1, slide up animation (mouse hover*/
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 10%;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1C3879;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+  margin: 10%;
+  margin-bottom: 0%;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 2vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ /*Positioning of div layouts*/
+.Recipe1{
+  margin: 10px;
+  padding:1%;
+  width: 50%;
+  margin-left: 0%;
+  font-size: 100%;
+  border: #1C3879;
+  border-style: inset;
+}
+table{
+  width: 100%;
+}
+.Image{
+  width: 100%;
+}
+.Recipe1{
+  margin-left: 35%;
+}
+.Recipes{
+  position: absolute;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Menu.css">
+</head>
+
+<header>
+    <img src="Logo.png" alt="Logo.png">
+    <h1>
+        BoBa BeaR
+    </h1>
+</header>
+<nav>
+    <ol>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="Menu.html">STORE</a></li>
+        <li><a href="Store.html">MENU</a></li>
+        <li><a href="Recipes.html">RECIPES</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+    </ol>
+</nav>
+
+<body>
+    <div class="Storetext">
+        <h3>Visit Boba Bear today! </h3>
+        <p>Bubble Tea can be enjoyed either in-store or on the go! 
+        </p>
+        <p>Store too far away? No worries. For NSW, 
+            our drinks can be ordered online and delivered. Otherwise, check out our 
+            <a href="Recipes.html">recipes.</a></p>
+    </div>
+
+    <table>
+        <th style="width: 50%">
+            Store
+        </th>
+          <th>Location</th>
+          <th>Opening hours</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="container">
+                <img src="Shop 1.jpg" alt="Store Image" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Dine-in & Takeaway</div>
+                </div>
+              </div>
+        </td>
+          <td>Cherry Street, Hernsby, NSW</td>
+          <td>10:00 - 16:00</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><div class="container">
+            <img src="Shop5.jpg" alt="Store Image" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">Takeaway only</div>
+            </div>
+          </div></td>
+          <td>Planse Station, NSW</td>
+          <td>10:00 - 17:00</td>
+          <td></td>
+        </tr>
+        <tr>
+            <td><div class="container">
+                <img src="Shop4.jpg" alt="Store Image" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Dine-in & Takeaway</div>
+                </div>
+              </div></td>
+            <td>Banan Westfield, NSW</td>
+            <td>11:00 - 16:00</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><div class="container">
+                <img src="Shop 2.jpg" alt="Store Image" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Dine-in & Takeaway</div>
+                </div>
+              </div></td>
+            <td>Planse Station, NSW</td>
+            <td>10:00 - 16:00</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><div class="container">
+                <img src="Shop3.jpg" alt="Store Image" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Dine-in & Takeaway</div>
+                </div>
+              </div></td>
+              <td>Sofields Mall, NSW</td>
+              <td>10:00 - 16:00</td>
+        </tr>
+        <tr>
+            <td><div class="container">
+                <img src="Shop6.jfif" alt="Store Image" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">Takeaway only</div>
+                </div>
+              </div></td>
+            <td>Lasagn Rd, Inertia Rd, NSW</td>
+            <td>10:00 - 16:00</td>
+        </tr>
+      </table>
+
+      <!-- A button to open the popup form -->
+<button class="open-button" onclick="openForm()">Join Boba Bear today!</button>
+
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form action="Bubble tea.jpg" class="form-container">
+    <h1>Sign Up</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Sign Up</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<script>
+    function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+</body>
+</html>
