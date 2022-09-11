@@ -22,6 +22,7 @@
 /*Setup*/
 body{
     margin: 0%;
+    width: 100%;
 }
   
 /*header*/
@@ -40,16 +41,20 @@ header h1{
     margin-top: 0%;
     padding-top: 20px;
     margin: 0%;
+    height: 120px;
+    font-size: 50px;
+
 }
 nav h1{
   font-family: TitleFont;
   padding-left: 100px;
   background-color: #76BA99;
   color: white;
-  height: 80px;
+  height: 150%;
   margin-top: 0%;
   padding-top: 20px;
   margin: 0%;
+
 }
 
 header img {
@@ -91,17 +96,18 @@ nav ol {
   }
   /*Styling of nav bar content*/
   li a {
-    color: #967450;
+    color: #967E76;
     text-decoration: none;
   }
   li a:hover {
-    background-color: #876445;
+    background-color: #967E76;
     color: white;
   }
   /*Hover effect - responsive to mouse*/
   nav li {
     list-style: none;
 }
+
 
 /* use of flexbox*/
 
@@ -113,8 +119,8 @@ main{
 
 .content{
   color: white;
-  width: 100%;
-  font-size:x-large;
+  width:100%;
+  font-size:7vw;
   text-align: center;
   box-sizing: border-box; /*tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
   position: absolute;
@@ -125,6 +131,7 @@ main{
   width: 100%;
   padding: 10%;
   height: 100%;
+
 }
 
 .Img1 {
@@ -136,43 +143,51 @@ main{
 
 .Img1 img{
   width: 100%;
-  
 }
 
 .Text1{
   margin: 5%;
+  font-size: 2.5vw;
 
 }
 .Text1 h2{
-  color: #76BA99;
+  color: #967E76;
+  font-size: 2.5vw;
 }
 
-.Img2 img{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  padding-left: 5%;
-  position: absolute;
-  padding-top: 50px;
-  display: flex;
+.Text2{
+  font-size: 2.5vw;
+}
+.Text2 a{
+  background-color:#99C4C8;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+.Text2 :hover{
+  color:#967E76
 }
 
+
+.Img2 h4{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 2.5vw;
+  margin: 100px;
+}
 .Img2{
   background-color:#99C4C8;
-  height: 250px;
-  max-width: 100%;
-  display: flex;
+  width: 100%;
 }
+
 .Img2 img{
   float: left;
-}
-.Img2 h4{
-  float: right;
-  padding-left: 50%;
+  height: 70%;
+  padding: 5%;
+  width: 400px;
 }
 
 h6{
-  font-size: medium;
+  font-size: 5vw;
   background-color: #76BA99;
   text-align: center;
   width: 50%;
@@ -180,14 +195,52 @@ h6{
 
 .Recipes img{
   display: flex;
-  width: 20%;
-  height: auto;
+  width: 200px;
+  height: 300px;
+  position:relative;
 }
 
+.Recipes{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  /*Re-orders image layout when screem is resized*/
+  justify-content: space-between 10;
+  align-items: center;
+  padding-left: 100px;
 
+}
+.Img3 {
+  width: 100%;
+  height: 400px;
+  background-image: url('Product\ image.jpg');
+  background-size: cover;
 
+}
+.Img3 h5{
+  font-size: xx-large;
+  padding-top: 100px;
+  margin: 10%;
+}
+h7{
+  font-size: 2.5vw;
+  color: black;
+  background-color: #99C4C8;
+}
+/*Footer styling*/
 
-
+footer{
+  background-color: #967E76;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  padding: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: small;
+}
 
 
 

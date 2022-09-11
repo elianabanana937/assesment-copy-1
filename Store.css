@@ -171,3 +171,13 @@ div.desc {
   background-color: #967E76;
   width: 150%;
 }
+footer{
+  background-color: #967E76;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  padding: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: small;
+}

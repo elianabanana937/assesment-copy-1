@@ -204,3 +204,14 @@ table a{
 .recipetable{
   margin-top: 10%;
 }
+
+/*Footer styling*/
+
+.foote  {
+  background-color: #967E76;
+  padding: 10%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: small;
+}
